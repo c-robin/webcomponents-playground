@@ -1,0 +1,34 @@
+.month-navigator {
+  width: 250px;
+  font: normal normal 500 normal 14px / normal Roboto, Helvetica, Arial, sans-serif;
+}
+
+.month-picker {
+  height: 48px;
+  text-align: center;
+}
+.month-selector {
+  width: 48px;
+  border: 0px;
+}
+.month-selector.prev {
+  float:left;
+}
+.month-selector.next {
+  float:right;
+}
+
+.greyed {
+  color:#505050;
+}
+
+.week-overview {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.day-overview {
+  text-align: center;
+  width: 32px;
+  height: 32px;
+}
